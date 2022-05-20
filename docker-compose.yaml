@@ -7,11 +7,3 @@ services:
       - '1200:80'
     volumes:
       - './app:/usr/share/nginx/html'
-  frontend:
-    build: 
-      context: './frontend'
-      dockerfile: 'Dockerfile.dev'
-    ports:
-      - '1200:80'
-    volumes:
-      - './frontend:/app'
