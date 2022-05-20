@@ -1,9 +1,0 @@
-FROM node:lts
-
-EXPOSE 80
-
-WORKDIR /app
-
-RUN npm i -g @angular/cli
-
-CMD npm start
